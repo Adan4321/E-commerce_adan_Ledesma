@@ -1,0 +1,133 @@
+:root{
+  --color-Primario:#F9DD94;
+  --bg-principal: URL(/img/fondo1.jpg);
+  --color-letras: rgb(255, 255, 255);
+  --color-titulos: rgb(6, 185, 21);
+  --bg-cP: #444;
+  --bg-contenido: #666;
+  --bs-navbar-brand-color:green;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  position: relative;
+  background-image: var(--bg-principal);
+  background-size: cover;
+}
+footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+footer:hover{
+  color:orange
+}
+
+nav{
+  background-color: #ffffff34;
+  opacity: 0.98;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 0;
+
+}
+nav p, nav a{
+color: white !important;
+}
+
+.contenedorPrincipal{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contenido{
+  width: 340px;
+  height: 450px;
+  background-color: var(--bg-cP);
+  margin: 4px;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  opacity: 0.96;
+}
+.descripcion, .contenido h1{
+  background-color: var(--bg-contenido);
+  padding: 10px;
+  border-radius: 15px;
+  color: var(--color-letras);
+  margin: 5px;
+  opacity: 1;
+}
+.descripcion{
+  margin-bottom: 10px;
+  text-align: left;
+}
+.contenido h1{
+  color: var(--color-titulos);
+  font-size: 20px;
+}
+.infoProducto{
+  margin-bottom: 0;
+  height: 310px;
+  background-color: var(--bg-contenido);
+  border-radius: 15px;
+  margin:0 20px;
+  position: relative;
+  opacity: 1;
+  }
+  
+.infoProducto img{
+  margin-top:10px;
+  width: 90%;
+  height: 55%;
+}
+
+.infoProducto button{
+  background-color: #75FF09C9;
+  position: absolute;
+  padding: 5px 26px;
+  border-radius: 20px;
+  top: 270px;
+  border:none;
+  left: 55%;
+  
+}
+.infoProducto button:hover {
+  background-color: #777;
+}
+
+.precio{
+  position: absolute;
+  text-align: left;
+  left: 10px;
+  color: #00FF42;
+  background: none;
+  top: 255px;
+  padding: 15px;
+    font-size: 20px;
+}
+
+.navbar-brand{
+  position: absolute;
+  top: 5px;
+  left: 43%;
+  text-align: end;
+}
+.container-fluid{
+  justify-content: end !important;
+}
+.navbar navbar-expand-lg{
+  position:  relative !important;
+}
+.logo{
+  display: inline;
+  position: absolute;
+  border-radius: 40px;
+  left: 5px;
+  top: 3px;
+}

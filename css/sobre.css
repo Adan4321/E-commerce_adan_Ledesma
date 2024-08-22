@@ -1,0 +1,105 @@
+:root {
+    --color-Primario: #F9DD94;
+    --bg-principal: URL(/img/fondo1.jpg);
+    --color-letras: rgb(255, 255, 255);
+    --color-titulos: rgb(6, 185, 21);
+    --bg-cP: #444;
+    --bg-contenido: #666;
+    --bs-navbar-brand-color: green;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #ffffff34;
+    opacity: 0.98;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 0;
+
+}
+
+nav p,
+nav a {
+    color: white !important;
+}
+
+.navbar-brand {
+    position: absolute;
+    top: 5px;
+    left: 43%;
+    text-align: end;
+}
+
+.container-fluid {
+    justify-content: end !important;
+}
+
+.navbar navbar-expand-lg {
+    position: relative !important;
+}
+
+.logo {
+    display: inline;
+    position: absolute;
+    border-radius: 40px;
+    left: 5px;
+    top: 3px;
+}
+
+body {
+    width: 100vw;
+    position: relative;
+    background-image: var(--bg-principal);
+    background-size: cover;
+}
+
+
+.contenedorPrincipal {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    
+    opacity: 0.96;
+    justify-content: center;
+}
+
+.contenido {
+    width: 90%;
+    height: 100%;
+    background-color: var(--bg-cP);
+    margin: 4px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.contenido h1{
+    color: burlywood;
+}
+.contenido p{
+    color: aqua;
+}
+.contacto{
+    width: 180px;
+    height: 150px;
+    background-color: rgb(48, 47, 47);
+    border-radius: 20px;
+    padding: 10px;
+    display: inline-block;
+}
+.contacto h3{
+    color: white;
+}
+footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+footer:hover {
+    color: orange
+}
