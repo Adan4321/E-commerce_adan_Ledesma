@@ -131,3 +131,8 @@ color: white !important;
   left: 5px;
   top: 3px;
 }
+@media (width >= 970px){
+    .logo{
+      left:52%;
+    }
+}
